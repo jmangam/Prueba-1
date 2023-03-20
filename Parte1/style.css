@@ -1,0 +1,42 @@
+.pill-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .filter-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .filter-tag {
+    background-color: #ddd;
+    color: #000;
+    border-radius: 20px;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .filter-tag .text {
+    margin-right: 4px;
+  }
+  
+  .filter-tag .close {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .filter-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .clear-filters {
+    margin-left: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
